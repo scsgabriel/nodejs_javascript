@@ -1,0 +1,10 @@
+let nome = "Bryan Alexander Venora Benson";
+console.log(nome);
+
+let nomesCortados = nome.split(" "); //corta os elementos pelo espaço, mas porderia ser qualquer outro critério, como vírgula, por exemplo.
+console.log(nomesCortados);
+
+//E se eu quiser pegar apenas um elemento ou mais e colocar dentro do vetor?
+let nomes2 = "David Neres Albuquerque Trajano Queiroz";
+let nomesCortados2 = nomes2.split(" ", 2); //peguei os primeiros 2 elementos separados pro espaço
+console.log(nomesCortados2);
